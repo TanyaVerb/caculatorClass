@@ -58,7 +58,6 @@ function resetCalculate() {
   firstNumInput.value = "";
   secondNumInput.value = "";
   signSelect.value = "+";
-  resultTitle.textContent = "...";
 }
 
 firstNumInput.addEventListener("keyup", function (e) {
