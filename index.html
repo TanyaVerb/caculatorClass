@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="left-block app__block">
+        <label class="num">
+          <span class="sub-title">Введите первое число</span>
+          <input class="num__input first-num" type="text" />
+        </label>
+      </div>
+      <div class="operation-block app__block">
+        <h1 class="result">
+          Ваш результат <span class="result-value">...</span>
+        </h1>
+        <label class="num">
+          <span class="sub-title">Выберите знак</span>
+          <select class="sign">
+            <option value="+" selected>+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+          </select>
+        </label>
+        <button class="result-btn btn" style="display: block">
+          Показать результат
+        </button>
+        <button class="reset-btn btn">Очистить</button>
+      </div>
+      <div class="right-block app__block">
+        <label class="num">
+          <span class="sub-title">Введите второе число</span>
+          <input class="num__input second-num" type="text" />
+        </label>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
